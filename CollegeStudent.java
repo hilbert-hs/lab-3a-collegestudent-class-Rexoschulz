@@ -58,14 +58,11 @@ public class CollegeStudent
   }
   public int getCourseFee(){
     return courseFee;
+  } 
+  public int getStudentID(){
+    return studentID;
+  } 
+  public String toString(){
+    return name + ": " + courseTitle + ", " + courseNum + ", " + credits + ". Cost:" + courseFee + " " + costPerCredit;
   }
-    
-    
-    
-    
-    
-    
-    
-    
-}// Create your CollegeStudent class here
-
+}
