@@ -40,10 +40,9 @@ public class CollegeStudent
   }
   public void setCredits(int c){
     credits = c;
-  }
-  public void setCourseFee(int c){
     courseFee = c * 125;
   }
+ 
   public String getName(){
     return name;
   }
@@ -63,6 +62,6 @@ public class CollegeStudent
     return studentID;
   } 
   public String toString(){
-    return name + ": " + courseTitle + ", " + courseNum + ", " + credits + ". Cost:" + courseFee + " " + costPerCredit;
+    return name + ": " + courseTitle + ", " + courseNum + ", " + credits + ". Cost:" + courseFee + ".";
   }
 }
